@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'pry'
+# gem 'dotenv-rails', require: 'dotenv/rails-now'
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
